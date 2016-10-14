@@ -1,0 +1,125 @@
+<div class="top-temp">&nbsp;</div>
+<div class="body-container">
+	<!--  <div class="menu-container">
+		<label class="menu-label">样本筛选：</label> <label class="menu-label"><input
+			class="search-range" name="user_physician_estimation_status[]"
+			type="text">%&lt;年龄&lt;<input class="search-range"
+			name="user_physician_estimation_status[]" type="text">%</label> <label
+			class="menu-label">性别 <select name="user_urine_status">
+				<option value="0">男</option>
+				<option value="1">女</option>
+		</select></label> <label class="menu-label">IBS型 <select
+			name="user_feces_status">
+
+				<option value="0">D</option>
+				<option value="1">C</option>
+				<option value="1">M</option>
+				<option value="1">U</option>
+		</select></label>
+	</div>
+	<div class="top-temp">&nbsp;</div>
+	<div class="menu-container">
+		<label class="menu-label">基本统计分析：</label> <label class="menu-label">变量
+			<select name="user_blood_status">
+				<option value="0">年龄</option>
+				<option value="1">IBS评分</option>
+				<option value="1"></option>
+		</select>
+		</label> <label class="menu-label">方法 <select name="user_urine_status">
+				<option value="0">基本统计值</option>
+				<option value="1"></option>
+		</select></label>
+	</div>
+	<div class="top-temp">&nbsp;</div>
+	<div class="menu-container">
+		<input class="search-bnt" type="submit" value="提交">
+	</div>
+	<div class="top-temp">&nbsp;</div>
+	<div class="menu-container">
+		<form>
+			<label class="menu-label">测试输出: <select name="users"
+				onchange="showReport(this.value)">
+					<option value="" selected="selected">请选择</option>
+					<option value="1">显示</option>
+					<option value="0">隐藏</option>
+			</select></label>
+		</form>
+	</div>
+	<div class="top-temp">&nbsp;</div>-->
+	<div class="menu-container">
+		<form>
+			<label class="menu-label">一维可视化: <select name="users"
+				onchange="ShowBar(this.value)">
+					<option value="" selected="selected">请选择</option>
+					<option value="basic_age">年龄</option>
+					<option value="basic_height">身高</option>
+					<option value="user_physician_estimation_status">诊断报告完成度</option>
+			</select></label>
+		</form>
+	</div>
+	<div class="top-temp">&nbsp;</div>
+	<div class="menu-container">
+		<form>
+			<label class="menu-label">二维散点图: 参数x: <select id="factor01"
+				onchange="ShowScatter(this.value)">
+					<option value="" selected="selected">请选择</option>
+					<option value="basic_age">年龄</option>
+					<option value="basic_height">身高</option>
+					<option value="basic_weight">体重</option>
+			</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;参数y: <select id="factor02"
+				onchange="ShowScatter(this.value)">
+					<option value="" selected="selected">请选择</option>
+					<option value="basic_age">年龄</option>
+					<option value="basic_height">身高</option>
+					<option value="basic_weight">体重</option>
+			</select></label>
+		</form>
+	</div>
+	<div class="top-temp">&nbsp;</div>
+	<div class="menu-container">
+		<form>
+			<label class="menu-label">三维散点图: 参数x: <select id="ThreeD_factor01"
+				onchange="Show3DScatter(this.value)">
+					<option value="" selected="selected">请选择</option>
+					<option value="basic_age">年龄</option>
+					<option value="basic_height">身高</option>
+					<option value="basic_weight">体重</option>
+			</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;参数y: <select id="ThreeD_factor02"
+				onchange="Show3DScatter(this.value)">
+					<option value="" selected="selected">请选择</option>
+					<option value="basic_age">年龄</option>
+					<option value="basic_height">身高</option>
+					<option value="basic_weight">体重</option>
+			</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;参数z: <select id="ThreeD_factor03"
+				onchange="Show3DScatter(this.value)">
+					<option value="" selected="selected">请选择</option>
+					<option value="basic_age">年龄</option>
+					<option value="basic_height">身高</option>
+					<option value="basic_weight">体重</option>
+			</select></label>
+		</form>
+	</div>
+	<div class="top-temp">&nbsp;</div>
+	<div class="menu-container">
+		<form>
+			<label class="menu-label">测试输出: <select name="users"
+				onchange="showReport(this.value)">
+					<option value="" selected="selected">请选择</option>
+					<option value="1">显示</option>
+					<option value="0">隐藏</option>
+			</select></label>
+		</form>
+	</div>
+
+	<div class="top-temp">&nbsp;</div>
+	<div class="top-temp">&nbsp;</div>
+	<div class="top-temp">&nbsp;</div>
+	<div id="txtHint" class="menu-label"
+		style="width: 100%; height: auto; display: none;">Info will be
+		listed here.</div>
+	<div id="main2" style="width: 900px; height: 400px; display: none;"></div>
+	<div id="main3" style="width: 950px; height: 400px; display: none;"></div>
+	<div id="main4" style="width: 950px; height: 400px; display: block;"></div>
+	<div class="cut">&nbsp;</div>
+</div>
+

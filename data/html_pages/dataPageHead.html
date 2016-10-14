@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<link rel="stylesheet" type="text/css" href="css/samplePageUI.css"/>
+
+<!-- 引入 ECharts 文件 -->
+    <script src="js/echarts.js"></script>
+<!-- 引入 Cytoscape 文件 -->
+    <!--<script src="js/cytoscape/cytoscape.js"></script>-->
+<!-- 引入 Jquery 文件 -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-git.js"></script>
+<!-- 引入 Highcharts 文件 -->
+	<script src="js/highcharts/js/highcharts.js"></script>
+	<script src="http://code.highcharts.com/highcharts-3d.js"></script>
+	<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<!-- 引入 Cytoscape 文件
+	<script src="js/cytoscape/cytoscape.js"></script>
+  -->   
+<!-- 引入 js样式控制文件 -->
+	<script type="text/javascript" src="js/welcome.js"></script>
+<!-- 引入我的js数据分析库文件 -->
+    <script src="js/ajax.js"></script>
+
+<title>Data Analysis and Visualization</title>
+</head>
+
+<body>
+<div class="toplist">
+
+         <div class="header-menu" style="margin-left:26%">
+            <dt><a href="index.php?purposeTo=visualization">基本分析和可视化</a></dt>
+        </div>
+        <div class="header-menu">
+            <dt><a href="index.php">t检验和方差分析</a></dt>
+        </div>
+        <div class="header-menu">
+            <dt><a href="index.php">回归和相关性分析</a></dt>
+        </div>
+        <div class="user-panel">
+	        <li class="one-menu" onmouseover="showSubMenu('mine_center');" onmouseout="hideSubMenu('mine_center');">
+            	<div><?php echo $user_tel;?>&nbsp;&nbsp;&nbsp;▼&nbsp;&nbsp;</div>
+            	            
+                <ul id="mine_center" class="sub-menu">
+	            	<a href=""><li>修改密碼</li></a>
+	            	<a href="../login.php"><li>退出登錄</li></a>
+                    <a href="../sample.php"><li>管理界面</li></a>
+                    <a href="../index.php"><li>网站首页</li></a>
+	            </ul>
+             
+	        </li>
+         </div>  
+     
+    </div>
+<div class="top-temp">&nbsp;</div>  
