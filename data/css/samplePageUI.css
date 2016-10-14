@@ -1,0 +1,295 @@
+@charset "utf-8";
+
+
+/* my codes in data pages */
+
+.cut {
+	width: 100%;
+	margin-bottom: 20px;
+	border-bottom: 1px #bbb dashed;
+}
+
+.menu-container {
+	width: 100%;
+	height: 22px;
+	padding: 7px 0;
+	background-color:#c3dde0;
+	color: #000;
+	font-size: 12px;
+	text-align: center;
+	letter-spacing: 2px;
+
+}
+
+.menu-label {
+	
+	margin-right: 1%;
+	margin-left: 1%;
+	float:left;
+	text-align: left;
+}
+/************************************************************************************
+*************************************************************************************/
+body {
+	font-family: 'Source Han Sans',Helvetica,Tahoma,Arial,'Hiragino Sans GB',"Microsoft YaHei",SimSun,Heiti,sans-serif;
+	min-width: 1280px;
+	margin:0;
+	padding:0;
+	background-color:#eee;
+}
+
+li {
+	list-style: none;
+}
+
+label {
+	margin-right: 30px;
+	cursor: pointer;
+}
+
+input {
+	width: auto;
+	margin-left: 10px;
+	border-style:none;
+	font-size: 12px;
+	border-bottom: 1px #999 solid;
+	outline: none;
+}
+
+table {
+	width: 100%;
+	border-color: #666666;
+	border-collapse: collapse;
+	
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+	letter-spacing: 3px;
+}
+
+
+
+.samplePage-table {
+	font-family: verdana,arial,sans-serif;
+	font-size:12px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #a9c6c9;
+	border-collapse: collapse;
+	width:100%;
+}
+.samplePage-table th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+.samplePage-table td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+
+.samplePage-table a {
+	color: #1e62bf;
+	letter-spacing: 1px;
+}
+
+.reportPage-table {
+	font-family: verdana,arial,sans-serif;
+	font-size:12px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #a9c6c9;
+	border-collapse: collapse;
+}
+.reportPage-table th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+.reportPage-table td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+	
+}
+
+
+
+.oddrowcolor{
+	background-color:#d4e3e5;
+}
+.evenrowcolor{
+	background-color:#c3dde0;
+}
+
+
+.top-list {
+	position: fixed;
+	top: 0;
+	width: 90%;
+	height: 40px;
+	padding: 0 5%;
+	line-height: 40px;
+	text-align: center;
+	font-size: 15px;
+	background-color: #eee;
+	border-bottom: 1px #ccc solid;
+	z-index: 999;
+}
+
+.top-list li {
+	float: right;
+	margin: 0 10px;
+}
+
+.one-menu {
+	cursor: pointer;
+}
+
+.sub-menu {
+	margin: 0;
+	padding: 0; 
+	display: none;
+	text-align: center;
+}
+
+.sub-menu li{
+	width: 100%;
+	margin: 0;
+	padding: 0 10px;
+	line-height: 40px;
+	clear: both;
+}
+
+.sub-menu li:hover{
+	border-bottom: 2px #333 solid;
+}
+
+.footer-info {
+	width: 100%;
+	font-size:10px;
+	line-height:1;
+	text-align:center;
+	color: #000;
+	clear: both;
+}
+
+.footer-info a {
+	color: #1e62bf;
+	letter-spacing: 1px;
+}
+
+.footer-info a:hover {
+	text-decoration: underline;
+}
+
+.top-temp {
+	width:100%; 
+	height:5px; 
+	line-height:30px; 
+	clear:none;
+}
+
+
+
+
+
+.body-container {
+	width: 74%;
+	padding: 2px 1px;
+	height: auto;
+	margin: 0 13% 20px 13%;
+	background-color: #fff;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+	border-radius: 0 0 2px 2px;
+}
+
+
+
+
+
+
+.toplist {
+	width:100%;
+	height:60px;
+	z-index:100;
+	background-color:#4F94CD;
+}
+.toplist2 {
+	width:100%;
+	height:60px;
+	position:fixed;
+	top:0;
+	left:0;
+	background-color:#4F94CD;
+	display:none;
+	z-index: 999;
+	box-shadow:5px 0px 10px 1px #ccc;
+}
+
+.user-panel {
+	width: 90%;
+	height: 40px;
+	padding: 0 8%;
+	
+	line-height: 60px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.user-panel li {
+	float: right;
+	
+}
+
+
+.header-menu {
+	float: left;
+	width: auto;
+	height: 30px;
+	font-size:15px;
+	margin-top:18px;
+	margin-left:5%;
+}
+.header-menu:hover {
+	border-bottom:4px #0d92c3 solid;
+}
+
+.search-bnt {
+	
+	padding: 3px 57px;
+	margin-right: 1%;
+	float:right;
+	background-color: #8BC9F7;
+	text-align: center;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.search-YorN {
+	
+	padding: 0px 20px;
+	margin-right: 1%;
+	float:right;
+	background-color: #8BC9F7;
+	text-align: left;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+
+.search-range {
+	width: 20px;
+	margin-left: 0px;
+
+
+}
